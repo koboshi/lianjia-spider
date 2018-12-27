@@ -65,6 +65,22 @@ func init() {
 	//初始化网络配置
 }
 
+func initLog() {
+	//TODO
+}
+
+func initMysql() {
+	//TODO
+}
+
+func initNet() {
+	//TODO
+}
+
+func initSpider() {
+	//TODO
+}
+
 func load(path string) (Config, error) {
 	var config Config
 	conf, err := ini.Load(path)   //加载配置文件
